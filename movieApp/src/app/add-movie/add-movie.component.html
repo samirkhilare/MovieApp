@@ -1,0 +1,37 @@
+<div class="form">
+    <form [formGroup]="movie" (ngSubmit)="save()">
+        <div class="info">
+            <label for="title" style="margin-left: 20px;margin-bottom: 10px;">Movie Title</label><br>
+            <input type="text" id="title" formControlName="movieName" pInputText placeholder="Title" />
+
+        </div>
+        <div class="year">
+            <label for="release-year" style="margin-left: 20px;margin-bottom: 20px;">Release Year</label>
+            <p-dropdown id="release-year" [options]="years" formControlName="year" class="dropdown"
+                placeholder="Select Year"></p-dropdown>
+        </div>
+        <div class="industry">
+            <label for="title" style="margin-left: 10px;margin-top: 50px;">Select Film Industry</label><br>
+            <p-dropdown id="industry" [options]="industries" formControlName="industry" [required]=true  class="dropdown"
+                placeholder="Select Industry"></p-dropdown>
+
+        </div>
+        <div class="genre">
+            <label for="title" style="margin-left: 20px;margin-top: 150px;">Select Genre</label><br>
+            <p-dropdown id="genre" [options]="genres" formControlName="genre" [required]=true placeholder="Select Genre"  class="dropdown"></p-dropdown>
+        </div>
+        <div class="url">
+            <label for="title" style="margin-left: 20px;margin-top: 150px;">Poster Url</label><br>
+            <textarea [rows]="1" [cols]="30" pInputTextarea style="width: 370px;" formControlName="postUrl" placeholder="Paste here URL of poster"></textarea>
+        </div>
+        <div class="addInfo">
+            <label for="title" style="margin-left: 20px;margin-top: 150px;">Additional Info About Movie</label><br>
+            <textarea [rows]="3" [cols]="30" pInputTextarea style="width: 370px;" formControlName="addtional" placeholder="Type here addtional information about movie"></textarea>
+        </div>
+        <div class="saveButtons">
+            <button pButton pRipple type="submit" icon="pi pi-check" class="p-button-rounded p-button-outlined"></button>&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button pButton pRipple type="reset" icon="pi pi-times" class="p-button-rounded p-button-danger p-button-outlined"></button>
+        </div>
+    </form>
+</div>

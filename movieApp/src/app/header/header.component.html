@@ -1,0 +1,42 @@
+<div class="nav">
+    <div class="logo">
+        <img class="imgLogo"
+            src="https://t4.ftcdn.net/jpg/05/28/49/37/240_F_528493729_gCcxA3D9teJPbGr9dE2uKhnQDY2K1yWJ.jpg" alt="Logo">
+
+    </div>
+    <div class="clientName">
+        <h4><i>padma</i></h4>
+    </div>
+    <div>
+        <img class="user" src="https://cdn-icons-png.flaticon.com/128/9131/9131529.png" alt="user">
+    </div>
+    <div class="search">
+        <span class="p-input-icon-left">
+            <i class="pi pi-search"></i>
+            <input type="text" [(ngModel)]="searchQuery" (input)="search()" pInputText placeholder="Search"
+                [(ngModel)]="value3" style="width: 500px;" />
+        </span>
+        <div class="movie-container" *ngIf="searchQuery">
+            <div class="movie" *ngFor="let movie of filteredMovies">
+                <div class="movie-title">{{movie.title}}</div>
+            </div>
+        </div>
+    </div>
+    <div class="options">
+        <p-button label="Add Movie" routerLink="addMovie"></p-button>
+    </div>
+
+    <div class="sidebar">
+        <p-button type="search" class="menu" (click)="visibleSidebar2 = true" icon="pi pi-list"
+            alt="Movie List"></p-button>
+        <p-sidebar [(visible)]="visibleSidebar2" position="right" [baseZIndex]="10000">
+            <h1 routerLink="home">Home</h1>
+            <h1 routerLink="/bollywood">Bollywood</h1>
+            <h1 routerLink="/hollywood">Hollywood</h1>
+            <h1 routerLink="/series">Series</h1>
+            <h1 routerLink="/live">Live TV</h1>
+        </p-sidebar>
+    </div>
+</div>
+    
+<hr class="hr">

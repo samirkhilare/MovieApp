@@ -1,0 +1,57 @@
+<div class="container">
+  <div class="body">
+     <div class="carousel">
+      <p-carousel [value]="getData" [circular]="true" [autoplayInterval]="3000" [numVisible]="4" [numScroll]="2">
+        <ng-template let-getData pTemplate="item">
+          <img [src]="getData.postUrl" [alt]="getData.alt" style="width: 380px;; height: 400px;" (click)="getIndexOnClick(getData)">
+        </ng-template>
+      </p-carousel>
+    </div>
+    
+    <hr>
+    <div class="lastWached">
+      <div *ngFor="let image of lastViewed.slice().reverse()">
+        <div class="lastSize">
+          <h4>Continue Watching</h4>
+          <img src="{{ image.postUrl }}" class="lastImage">
+          <p>{{ image.movieName }}</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <p-card class="cardSize">
+        <ng-template pTemplate="title">
+          <span class="card-title">About Us</span>
+        </ng-template>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est doloremque at, quod aliquam perferendis
+          exercitationem delectus ex quasi accusamus placeat, fugit assumenda, suscipit numquam nihil. Vel, porro?
+          Recusandae, qui adipisci?</p>
+      </p-card>
+      <p-card class="cardSize">
+        <ng-template pTemplate="title">
+          <span class="card-title">Partners</span>
+        </ng-template>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quibusdam maxime possimus illo dicta, nihil,
+          sit fugit harum voluptate tempora quas asperiores at atque cum! Doloribus facere eum veniam voluptatibus?</p>
+      </p-card>
+      <p-card class="cardSize">
+        <ng-template pTemplate="title">
+          <span class="card-title">Connect Us</span>
+        </ng-template>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, reiciendis reprehenderit enim doloribus ipsa
+          itaque beatae assumenda aperiam laborum, autem repellat aliquid iusto, tenetur quaerat velit laboriosam
+          repellendus qui sunt?</p>
+      </p-card>
+
+    </div>
+  </div>
+  
+</div>
+
+<!-- <div>
+  <button (click)="getAllMovie()">Show</button>
+  <div *ngFor="let data of getData ">
+    {{data.movieName}}
+  </div>
+  
+</div> -->

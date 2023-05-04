@@ -1,0 +1,112 @@
+{
+  "movieList": [
+    {
+      "movieName": "Master",
+      "year": 2021,
+      "industry": "Tollywood",
+      "genre": "Action",
+      "addtional": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"",
+      "postUrl": "https://th.thgim.com/entertainment/movies/y7ypng/article30451816.ece/alternates/FREE_435/VJ64-FINAL-online-poster-ENGLISHjpg",
+      "id": 1
+    },
+    {
+      "movieName": "Avengers Endgame",
+      "year": 2020,
+      "industry": "Hollywood",
+      "genre": "Action",
+      "addtional": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"",
+      "postUrl": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71niXI3lxlL._SY679_.jpg",
+      "id": 2
+    },
+    {
+      "movieName": "Black Panther",
+      "year": 2018,
+      "industry": "Hollywood",
+      "genre": "Action",
+      "addtional": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"",
+      "postUrl": "https://www.washingtonpost.com/graphics/2019/entertainment/oscar-nominees-movie-poster-design/img/black-panther-web.jpg",
+      "id": 3
+    },
+    {
+      "movieName": "Ironman 2",
+      "year": 2004,
+      "industry": "Hollywood",
+      "genre": "Action",
+      "addtional": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"",
+      "postUrl": "https://www.superrobotmayhem.com/wp-content/uploads/2014/09/new-iron-man-2-pictures_251.jpg",
+      "id": 4
+    },
+    {
+      "movieName": "Captain America",
+      "year": 2003,
+      "industry": "Hollywood",
+      "genre": "Action",
+      "addtional": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"",
+      "postUrl": "https://media.gettyimages.com/id/458467163/photo/the-first-avenger-movie-poster.jpg?s=612x612&w=gi&k=20&c=Fc9E7HSJmEiviWNqmLsoXGgwOdpN8fv3qZ0fem6__rM=",
+      "id": 5
+    },
+    {
+      "movieName": "Runway 34",
+      "year": 2022,
+      "industry": "Bollywood",
+      "genre": "Drama",
+      "addtional": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"",
+      "postUrl": "https://m.media-amazon.com/images/M/MV5BN2YzNjU4MTYtMzY5OS00ODg0LTkxMTUtNjg0YjRkYzI5ZWJjXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg",
+      "id": 6
+    },
+    {
+      "movieName": "Bhoola",
+      "year": 2023,
+      "industry": "Bollywood",
+      "genre": "Action",
+      "addtional": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"",
+      "postUrl": "https://pbs.twimg.com/media/FkZlj6oaYAA3voP?format=jpg&name=900x900",
+      "id": 7
+    },
+    {
+      "movieName": "Airlift",
+      "year": 2017,
+      "industry": "Bollywood",
+      "genre": "Drama",
+      "addtional": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"",
+      "postUrl": "https://static-koimoi.akamaized.net/wp-content/new-galleries/2015/12/airlift-movie-poster-3.jpg",
+      "id": 8
+    },
+    {
+      "movieName": "RRR",
+      "year": 2022,
+      "industry": "Tollywood",
+      "genre": "Action",
+      "addtional": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"",
+      "postUrl": "https://images.lifestyleasia.com/wp-content/uploads/sites/7/2021/11/23171804/243790350_4438147812927955_1754826358579203828_n.webp_-645x806.jpg",
+      "id": 9
+    },
+    {
+      "movieName": "Bhramhastra",
+      "year": 2022,
+      "industry": "Bollywood",
+      "genre": "Action",
+      "addtional": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"",
+      "postUrl": "https://cdn.123telugu.com/content/wp-content/uploads/2022/12/brahmastra.jpg",
+      "id": 10
+    },
+    {
+      "movieName": "Varisu",
+      "year": 2023,
+      "industry": "Tollywood",
+      "genre": "Drama",
+      "addtional": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"",
+      "postUrl": "https://pbs.twimg.com/media/FizLYFxWIAAYTbN.jpg",
+      "id": 11
+    },
+    {
+      "movieName": "Thor",
+      "year": 2005,
+      "industry": "Hollywood",
+      "genre": "Action",
+      "addtional": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"",
+      "postUrl": "https://media.comicbook.com/2017/10/thor-movie-poster-marvel-cinematic-universe-1038890.jpg",
+      "id": 12
+    }
+  ]
+}
